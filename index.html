@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac_Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <h2>Themes</h2>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <button class="lightmode">Lightmode</button>
+            <button class="darkmode">Darkmode</button>
+            <button class="retro">retro</button>
+        </nav>
+        <h2>Tic-Tac-Toe</h2>
+         <div class="gameboard"> 
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+    </div>
+    <div class="winningMessage">
+        <label id="message"></label>
+        <button id="restart">Restart</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="themes.js"></script>
+</body>
+</html>
